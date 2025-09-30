@@ -29,12 +29,7 @@ Once GitHub Pages is enabled, the site will be available at:
 
 ### Update Support Email
 
-Currently, the support email is set to: **support@prysmhealth.app**
-
-If you need to change this:
-1. Search for `support@prysmhealth.app` in all HTML files
-2. Replace with your actual support email
-3. Commit and push changes
+The support email is set to: **prysmhealth@gmail.com**
 
 ### Add Custom Domain (Optional)
 
@@ -52,8 +47,7 @@ If you have a custom domain like `support.prysmhealth.app`:
 
 Before using this site in production, please update:
 
-1. **Support Email**: Replace `support@prysmhealth.app` with your actual email
-2. **Company/Developer Name**: Add your company or developer name in the footer
+1. **Company/Developer Name**: Add your company or developer name in the footer
 3. **App Store Link**: Once your app is published, add the App Store link
 4. **Governing Law**: Update "State of [Your State]" in Terms of Service with your actual state
 5. **Social Media Links**: Add your social media handles if desired
@@ -89,7 +83,7 @@ The privacy policy and terms of service are templates designed for a health/fitn
 
 ## 📧 Contact
 
-For questions about the app, email: support@prysmhealth.app
+For questions about the app, email: prysmhealth@gmail.com
 
 ## 📄 License
 

@@ -70,14 +70,20 @@
         .app-icon {
             width: 100px;
             height: 100px;
-            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            background: white;
             border-radius: 22px;
             margin: 0 auto 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 48px;
+            padding: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         h1 {
@@ -342,7 +348,9 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="app-icon">💎</div>
+            <div class="app-icon">
+                <img src="prysm-logo.svg" alt="Prysm Logo">
+            </div>
             <h1>Prysm</h1>
             <p class="tagline">Your personal health optimization platform powered by advanced biometric insights</p>
         </div>
@@ -562,7 +570,7 @@
             <div class="contact-box">
                 <h3>Need Help?</h3>
                 <p>We're here to help! Whether you have questions, feedback, or need technical support, our team typically responds within 24-48 hours.</p>
-                <a href="mailto:support@prysmhealth.app" class="contact-email">✉️ support@prysmhealth.app</a>
+                <a href="mailto:prysmhealth@gmail.com" class="contact-email">✉️ prysmhealth@gmail.com</a>
                 <p style="margin-top: 30px; font-size: 0.95em;">
                     For bug reports or feature requests, please include your device model, iOS version, and a detailed description of the issue.
                 </p>
