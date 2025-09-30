@@ -4,40 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Prysm</title>
-    <meta http-equiv="refresh" content="0; url=https://www.termsfeed.com/live/c16c103f-ddc1-4f21-b989-037a98272a92">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
+            background-color: #F8FAFB;
+        }
+
+        header {
             background: linear-gradient(135deg, #4A90E2, #7B68EE);
             color: white;
+            padding: 30px 20px;
             text-align: center;
         }
-        .message {
-            max-width: 600px;
-            padding: 40px;
-        }
+
         h1 {
-            margin-bottom: 20px;
+            font-size: 2em;
+            margin-bottom: 10px;
         }
-        a {
-            color: #50C878;
+
+        .back-link {
+            display: inline-block;
+            color: white;
             text-decoration: none;
-            font-weight: 600;
+            margin-top: 10px;
+            opacity: 0.9;
+            font-size: 0.9em;
         }
-        a:hover {
-            text-decoration: underline;
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        iframe {
+            width: 100%;
+            height: calc(100vh - 140px);
+            border: none;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5em;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="message">
-        <h1>Redirecting to Privacy Policy...</h1>
-        <p>If you are not redirected automatically, please <a href="https://www.termsfeed.com/live/c16c103f-ddc1-4f21-b989-037a98272a92">click here</a>.</p>
-    </div>
+    <header>
+        <h1>Privacy Policy</h1>
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </header>
+    <iframe src="https://www.termsfeed.com/live/c16c103f-ddc1-4f21-b989-037a98272a92" title="Privacy Policy"></iframe>
 </body>
 </html>

@@ -69,7 +69,7 @@ Use this URL as your **Support URL** when submitting to the App Store:
 
 You'll also need to provide links to:
 - Privacy Policy: `https://mariani-code.github.io/PrysmHealth-Support/privacy-policy.html` (redirects to TermsFeed)
-- Terms of Service: `https://mariani-code.github.io/PrysmHealth-Support/terms-of-service.html`
+- Terms of Service: `https://mariani-code.github.io/PrysmHealth-Support/terms-of-service.html` (redirects to TermsFeed)
 
 ## 🔒 Privacy & Legal
 
